@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Luís Matos | Psicólogo - CRP 12/31722</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%232B463B'/%3E%3Cpath d='M32 14v36M21 20c0 9 4.5 14 11 14s11-5 11-14M26 50h12' fill='none' stroke='%23DFC498' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Aura ambiental que acompanha o cursor -->
+    <div class="cursor-spotlight" id="cursorSpotlight" aria-hidden="true"></div>
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="brand">
+                <span class="brand-emblem" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 5v22M9.5 9c0 5.5 2.8 8.5 6.5 8.5s6.5-3 6.5-8.5M12.5 27h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <span class="brand-name">Mateus Luís Matos</span>
+                    <span class="brand-sub">Psicólogo • CRP 12/31722</span>
+                </span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#sobre">Sobre</a>
+                <a href="#atuacao">Abordagem</a>
+                <a href="#como-funciona">Atendimento</a>
+                <a href="#duvidas">Dúvidas</a>
+                <a href="https://wa.me/5549988941599?text=Ol%C3%A1%2C%20Mateus%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos." target="_blank" rel="noopener" class="nav-btn-wpp magnetic-btn">
+                    Agendar pelo WhatsApp
+                </a>
+            </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <section class="hero">
+        <div class="container hero-inner" data-parallax="0.018">
+            <div class="editorial-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span>São José, SC · Atendimento Presencial e Online</span>
+                <span class="eyebrow-line"></span>
+            </div>
+
+            <h1>Escuta acolhedora e fundamentada para o seu processo de autoconhecimento.</h1>
+
+            <p class="hero-lead">
+                <strong>Mateus Luís Matos</strong> — Psicólogo · CRP 12/31722<br>
+                Pós-graduando em Psicanálise, Neuropsicologia e Psicopatologia Clínica.
+            </p>
+
+            <div class="hero-actions">
+                <a href="https://wa.me/5549988941599?text=Ol%C3%A1%2C%20Mateus%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos." target="_blank" rel="noopener" class="btn-primary magnetic-btn">
+                    Conversar no WhatsApp
+                </a>
+                <a href="#sobre" class="btn-secondary magnetic-btn">
+                    Conhecer meu trabalho
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim + Foto lado a lado -->
+    <section id="sobre" class="section about-section">
+        <div class="container about-split-grid">
+            <div class="about-photo-col reveal">
+                <div class="photo-frame-wrap tilt-card">
+                    <div class="photo-offset-bg" aria-hidden="true"></div>
+                    <img src="images/foto_mateus.jpg" alt="Psicólogo Mateus Luís Matos" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="photo-fallback" style="display: none;">
+                        <span class="fallback-monogram">MLM</span>
+                        <span class="fallback-caption">Mateus Luís Matos<br>CRP 12/31722</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-text-col reveal">
+                <!-- Símbolo da Psicologia como marca d'água sutil -->
+                <div class="psy-watermark" data-parallax="-0.025" aria-hidden="true">
+                    <svg viewBox="0 0 120 120" fill="none">
+                        <path d="M60 14v92M32 30c0 22 11 34 28 34s28-12 28-34M45 106h30" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+
+                <span class="section-tag">Apresentação</span>
+                <h2>Sobre mim</h2>
+                <p>
+                    Sou <strong>Mateus Luís Matos</strong>, psicólogo inscrito no Conselho Regional de Psicologia de Santa Catarina, sob o registro <strong>CRP 12/31722</strong>.
+                </p>
+                <p>
+                    Meu trabalho é pautado na <strong>ética, no sigilo e no respeito à singularidade de cada sujeito</strong>, buscando oferecer um espaço seguro e acolhedor para a elaboração de angústias, a compreensão de padrões emocionais e a promoção da saúde mental.
+                </p>
+                <p>
+                    Acredito que o <strong>acolhimento e a possibilidade de expressão</strong> são fundamentais para a construção de um processo psicoterapêutico. Compreendo que cada indivíduo possui uma história única, marcada por vivências e experiências próprias. Por isso, ofereço uma <strong>escuta ativa, ética e livre de julgamentos</strong>, respeitando o tempo e as particularidades de cada pessoa.
+                </p>
+                <p>
+                    Atualmente, sigo aprimorando minha formação profissional como pós-graduando nas áreas de <strong>Psicanálise, Neuropsicologia e Psicopatologia Clínica</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisor Ornamental com Símbolo da Psicologia -->
+    <div class="psy-divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+            <path d="M16 4v24M9 9c0 6 3 9 7 9s7-3 7-9M12 28h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        <span class="divider-line"></span>
+    </div>
+
+    <!-- Áreas de Formação e Abordagem -->
+    <section id="atuacao" class="section bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Fundamentação Teórica</span>
+                <h2 class="section-title">Formação &amp; Abordagem</h2>
+                <p class="section-desc">Uma prática clínica sustentada pelo diálogo entre a escuta psicanalítica, a compreensão neuropsicológica e o rigor da psicopatologia.</p>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card tilt-card reveal">
+                    <span class="card-index">01</span>
+                    <h3>Psicanálise</h3>
+                    <p>Abordagem que busca compreender os processos inconscientes de cada indivíduo, permitindo elaborar angústias, atravessar conflitos e ressignificar experiências.</p>
+                </article>
+                <article class="card tilt-card reveal">
+                    <span class="card-index">02</span>
+                    <h3>Neuropsicologia</h3>
+                    <p>Compreensão integrada da relação entre o funcionamento cerebral, as funções cognitivas, o comportamento e a regulação das emoções no cotidiano.</p>
+                </article>
+                <article class="card tilt-card reveal">
+                    <span class="card-index">03</span>
+                    <h3>Psicopatologia Clínica</h3>
+                    <p>Olhar técnico, ético e cuidadoso para as diferentes formas de sofrimento psíquico, auxiliando na compreensão clínica e no acompanhamento terapêutico adequado.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos em que a terapia pode ajudar -->
+    <section id="demandas" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Acolhimento Clínico</span>
+                <h2 class="section-title">Momentos em que a terapia pode ajudar</h2>
+                <p class="section-desc">Não é preciso esperar um momento de crise extrema para iniciar um processo psicoterapêutico.</p>
+            </div>
+
+            <div class="topics-grid">
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">01</span>
+                    <h3>Ansiedade e sobrecarga</h3>
+                    <p>Sensação constante de alerta, preocupação excessiva, dificuldade para desacelerar ou lidar com pressões do dia a dia.</p>
+                </div>
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">02</span>
+                    <h3>Angústia e vazio</h3>
+                    <p>Inquietações internas difíceis de nomear, desânimo persistente ou perda de sentido diante da própria rotina.</p>
+                </div>
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">03</span>
+                    <h3>Relações e vínculos</h3>
+                    <p>Dificuldades afetivas, familiares ou profissionais, repetições de padrões relacionais e estabelecimento de limites.</p>
+                </div>
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">04</span>
+                    <h3>Autoconhecimento</h3>
+                    <p>Desejo de compreender melhor suas escolhas, sua história, seus desejos e formas mais autênticas de estar no mundo.</p>
+                </div>
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">05</span>
+                    <h3>Luto e transições</h3>
+                    <p>Elaboração de perdas significativas, mudanças de fase de vida, rupturas ou decisões importantes.</p>
+                </div>
+                <div class="topic-card tilt-card reveal">
+                    <span class="topic-num">06</span>
+                    <h3>Esgotamento emocional</h3>
+                    <p>Cansaço mental intenso, autocobrança elevada e dificuldade em conciliar demandas externas com o cuidado de si.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como funciona o atendimento -->
+    <section id="como-funciona" class="section bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Processo Terapêutico</span>
+                <h2 class="section-title">Como funciona o atendimento</h2>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card tilt-card reveal">
+                    <span class="step-badge">Etapa 1</span>
+                    <h3>Primeiro contato</h3>
+                    <p>Você envia uma mensagem pelo WhatsApp para tirar dúvidas iniciais, verificar disponibilidade de horários e combinar a modalidade mais adequada.</p>
+                </div>
+                <div class="step-card tilt-card reveal">
+                    <span class="step-badge">Etapa 2</span>
+                    <h3>Sessão inicial de escuta</h3>
+                    <p>Um primeiro encontro acolhedor para conversarmos sobre o que motivou sua busca, compreender suas expectativas e alinhar o funcionamento das sessões.</p>
+                </div>
+                <div class="step-card tilt-card reveal">
+                    <span class="step-badge">Etapa 3</span>
+                    <h3>Continuidade no seu tempo</h3>
+                    <p>As sessões seguem geralmente com frequência semanal, oferecendo um espaço contínuo, sigiloso e respeitoso para o seu percurso.</p>
+                </div>
+            </div>
+
+            <div class="modalities-grid">
+                <div class="modality-card tilt-card reveal">
+                    <h3>Atendimento Presencial</h3>
+                    <p>Realizado na região de <strong>São José - SC</strong>, em ambiente reservado, confortável e preparado para garantir privacidade e tranquilidade durante cada encontro.</p>
+                </div>
+                <div class="modality-card tilt-card reveal">
+                    <h3>Atendimento Online</h3>
+                    <p>Sessões por videochamada com o mesmo rigor ético e sigilo do consultório, permitindo continuidade terapêutica onde quer que você esteja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reconhecimento & Produção Científica -->
+    <section id="producao" class="section">
+        <div class="container">
+            <div class="science-card tilt-card reveal">
+                <div class="science-badge">Produção Técnica &amp; Científica</div>
+                <h2>4ª Mostra Nacional de Práticas em Psicologia no SUAS</h2>
+                <p>
+                    Autor do relato de experiência <strong>“Trabalho social com grupos da Abordagem Social junto à população em situação de rua”</strong>, desenvolvido na Prefeitura de São José (SC) e selecionado para apresentação na 4ª Mostra Nacional de Práticas em Psicologia no SUAS, promovida pelo Conselho Federal de Psicologia (CFP), Conselhos Regionais e Conpas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perguntas Frequentes -->
+    <section id="duvidas" class="section bg-alt">
+        <div class="container faq-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Esclarecimentos</span>
+                <h2 class="section-title">Perguntas frequentes</h2>
+            </div>
+
+            <div class="faq-list reveal">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>O que é falado nas sessões é realmente sigiloso?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim. O sigilo profissional é um princípio fundamental previsto no Código de Ética Profissional do Psicólogo. Tudo o que é compartilhado em sessão permanece estritamente protegido.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Qual é a duração e a frequência das sessões?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Cada sessão tem duração média de 50 minutos e ocorre, via de regra, uma vez por semana, podendo ser ajustada conforme a necessidade clínica de cada caso.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>O atendimento online tem a mesma eficácia do presencial?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim. O atendimento psicológico online é regulamentado pelo Conselho Federal de Psicologia e oferece a mesma qualidade de escuta e vínculo, desde que realizado em um local reservado e com conexão estável.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Preciso ter um diagnóstico ou motivo específico para começar?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não. Muitas pessoas procuram a psicoterapia justamente por sentirem algo difuso, viverem um momento de transição ou desejarem um espaço seguro para se escutar e se compreender melhor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamada Final -->
+    <section class="cta-banner">
+        <div class="container cta-inner reveal">
+            <h2>Quando sentir que é o momento, estou à disposição para conversar.</h2>
+            <p>Entre em contato pelo WhatsApp para tirar suas dúvidas ou verificar horários disponíveis para atendimento presencial em São José - SC ou online.</p>
+            <a href="https://wa.me/5549988941599?text=Ol%C3%A1%2C%20Mateus%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos." target="_blank" rel="noopener" class="btn-cta-light magnetic-btn">
+                Agendar primeira conversa
+            </a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="footer-title-row">
+                    <span class="footer-psy" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4v24M9 9c0 6 3 9 7 9s7-3 7-9M12 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </span>
+                    <strong>Mateus Luís Matos</strong>
+                </div>
+                <p>Psicólogo • CRP 12/31722</p>
+                <p class="footer-loc">Atendimento presencial e remoto • Região de São José - SC</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://www.instagram.com/mateusluismatos.psi" target="_blank" rel="noopener" aria-label="Instagram" class="social-circle instagram magnetic-btn">
+                    <svg width="21" height="21" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/5549988941599?text=Ol%C3%A1%2C%20Mateus%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos." target="_blank" rel="noopener" aria-label="WhatsApp" class="social-circle whatsapp magnetic-btn">
+                    <svg width="21" height="21" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.124-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5549988941599?text=Ol%C3%A1%2C%20Mateus%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20atendimentos." class="floating-wpp magnetic-btn" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+        <svg width="26" height="26" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.124-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
